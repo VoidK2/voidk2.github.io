@@ -12,7 +12,7 @@ github_repo: "https://github.com/voidk2/voidk2.github.io" # you code repository
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "talk is cheap, show me the code"
-sidebar-avatar: /img/about-voidk2.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-voidk2.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
