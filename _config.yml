@@ -7,21 +7,20 @@ description: "Every failure is leading towards success."
 keyword: "voidk2's Blog, 张泽鑫的博客, zhangzexin, voidk2, iOS, Apple, iPhone"
 url: "http://voidk2.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/voidk2/voidk2.github.io.git" # you code repository
+github_repo: "https://github.com/voidk2/voidk2.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "talk is cheap, show me the code"
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     zhangzexin
+zhihu_username:     zhang-ze-xin-19
 github_username:    voidk2
-facebook_username:  zexin zhang
+facebook_username:  zexinzhang
 #jianshu_username:   e71990ada2fd
 twitter_username:   voidk2
 
