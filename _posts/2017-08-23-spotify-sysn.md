@@ -7,8 +7,8 @@ author:     zhangzexin
 header-img: img/home-bg.jpg
 catalog: true
 tags:
-	- python
-	- spotify
+       - spotify
+       - python
 ---
 ## 为什么要用Spotify?
 1、网易云的弊端 
