@@ -4,7 +4,7 @@ title:      HDU 1003 Max Sum Java
 subtitle:   HDU 1003 JAVA
 date:       2017-09-22
 author:     zhangzexin
-header-img: img/.jpg
+header-img: img/tag-bg-o.jpg
 catalog:    true
 tags:
     - HDU
