@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      How to synchronize Netease Music's songlist to Spotify
+title:      如何将网易云歌单同步到Spotify
 subtitle:   Spotify is the best!
 date:       2017-08-23
 author:     zhangzexin
