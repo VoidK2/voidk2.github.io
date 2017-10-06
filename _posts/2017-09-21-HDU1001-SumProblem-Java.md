@@ -10,7 +10,7 @@ tags:
     - Java
     - 练习
 ---
-```
+```java
 import java.util.Scanner;
 
 public class Main{
