@@ -7,8 +7,8 @@ author: zhangzexin
 header-img: img/post-bg-unix-linux.jpg
 catalog: true
 tags:
-  _ algorithm
-  - 模版
+     - algorithm
+     - 模版
 ---
 ### 最大公约数、最小公倍数模版
 第一弹
