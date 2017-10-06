@@ -1,15 +1,25 @@
-.highlight-rouge table td { padding: 5px; }
-.highlight-rouge table pre { margin: 0;}
-pre[class='highlight'] {
-  /*Sublime 2 background*/
-  /* background-color:#272822; */
-  /*Atom background*/
-  /*background-color:#282C34; */
-  /* background-color:#3C3A3A; */
-  background-color:#3A3C42;
-  /*Atom background 2*/
-  /* background-color:#31363F; */
+/* to make lines scroll instead of wrap */
+/* from http://stackoverflow.com/a/23393920 */
+
+.highlight pre code * {
+  white-space: nowrap;    // this sets all children inside to nowrap
 }
+
+.highlight pre {
+  overflow-x: auto;       // this sets the scrolling in x
+}
+
+.highlight pre code {
+  white-space: pre;       // forces <code> to respect <pre> formatting
+}
+
+
+/*
+ * GitHub style for Pygments syntax highlighter, for use with Jekyll
+ * Courtesy of GitHub.com
+ */
+
+.highlight pre, pre, .highlight .hll { background-color: #3A3C42; border: 1px solid #ccc; padding: 6px 10px; border-radius: 3px; }
 .highlight .gh {
   color: #999999;
 }
@@ -195,5 +205,3 @@ pre[class='highlight'] {
 .highlight .o {
   color: #f92672;
 }
-
-code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
