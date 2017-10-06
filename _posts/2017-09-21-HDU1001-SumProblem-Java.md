@@ -4,7 +4,7 @@ title: 	HDU 1001 Sum Problem Java
 subtitle: Java 练习题
 date:  2017-09-21
 author: zhangzexin
-header-img:  img/post-gb-unix-linux.jpg
+header-img:  img/post-bg-unix-linux.jpg
 catalog: true
 tags:
     - Java
