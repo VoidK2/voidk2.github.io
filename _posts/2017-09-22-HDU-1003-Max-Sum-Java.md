@@ -10,7 +10,7 @@ tags:
     - HDU
     - Java
 ---
-```
+```java
 
 import java.util.Scanner;
 public class Main{
