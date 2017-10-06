@@ -38,7 +38,7 @@ tags:
 部分音乐因为版权问题，无法添加。（这种情况比较少）
 
 ## 源码 python2
-```
+```python
 import json
 import sys
 from urllib import urlopen
@@ -82,7 +82,7 @@ while 1:
 	print('Success.\nCheck the directory of this file and find the .kgl file!')
 ```
 ##源码python3
-```
+```python
 # -*- coding: utf-8 -*-
 import json
 import sys, io
