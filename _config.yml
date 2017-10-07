@@ -86,7 +86,7 @@ service-worker: true
 
 
 # Friends
-friends: [
+friends: 
     {
         title: "私人网盘",
         href: "http://hfuu.gq"
@@ -99,8 +99,7 @@ friends: [
     },{
         title: "Apple Developer",
         href: "https://developer.apple.com/"
-    }
-    {
+    },{
         title: "个人CSDN",
         href: "http://blog.csdn.net/voidk2"
     }
