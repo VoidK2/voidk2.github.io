@@ -4,7 +4,7 @@ SEOTitle: 张泽鑫的博客 | voidk2‘s Blog
 header-img: img/post-bg-2015.jpg
 email: zhangzexindeguge@gmail.com
 description: "Every failure is leading towards success."
-keyword: "voidk2's Blog, 张泽鑫的博客, zhangzexin, voidk2, iOS, Apple, iPhone"
+keyword: "voidk2's Blog, 张泽鑫的博客, zhangzexin, voidk2, iOS, Apple, iPad Pro, Algorithm"
 url: "http://voidk2.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/voidk2/voidk2.github.io" # you code repository
@@ -31,7 +31,7 @@ twitter_username:   voidk2
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 10
+paginate: 15
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
