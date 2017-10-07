@@ -4,13 +4,13 @@ title:      HDU 1003 Max Sum Java
 subtitle:   HDU 1003 JAVA
 date:       2017-09-22
 author:     zhangzexin
-header-img: img/tag-bg-o.jpg
+header-img: img/post-bg-unix-linux.jpg
 catalog:    true
 tags:
     - HDU
     - Java
 ---
-```
+```java
 
 import java.util.Scanner;
 public class Main{

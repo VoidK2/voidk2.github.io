@@ -12,7 +12,7 @@ tags:
 ---
 ### 最大公约数、最小公倍数模版
 第一弹
-```
+```c++
 int gcd(int a,int b)  
 {  
 	if(a%b==0)  
@@ -27,7 +27,7 @@ int lcm(int a,int b)
 }
 ```
 第二弹
-```
+```c++
 int gcd(int a,int b){
 		if(b==0)
 				return a;
