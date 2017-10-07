@@ -86,7 +86,7 @@ service-worker: true
 
 
 # Friends
-friends: 
+friends: [
     {
         title: "私人网盘",
         href: "http://hfuu.gq"
