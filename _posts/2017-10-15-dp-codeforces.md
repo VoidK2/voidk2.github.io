@@ -1,13 +1,14 @@
 ---
 layout:  post
-title:  未完整处理
-subtitle:  未完整处理
+title:  codeforces 861
+subtitle:  整数非重复划分
 data:  2017-10-15
 author:  Zexin Zhang
-header-img:  img/post-unix-linux-jpg
+header-img:  img/post-unix-linux.jpg
 catalog:  true
 tags:
 - dp
+- codeforces
 ---
 ## 整数非重复划分dp
 ```c++
