@@ -4,7 +4,7 @@ title:  codeforces 861
 subtitle:  整数非重复划分
 data:  2017-10-15
 author:  Zexin Zhang
-header-img:  img/post-unix-linux.jpg
+header-img:  img/post-bg-ioses.jpg
 catalog:  true
 tags:
 - dp
