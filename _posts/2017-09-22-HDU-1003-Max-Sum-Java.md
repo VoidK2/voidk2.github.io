@@ -7,10 +7,8 @@ author:  zhangzexin
 header-img:  img/post-bg-unix-linux.jpg
 catalog:  true
 tags:
-    - HDU
     - Java
-    - dp
-    
+    - dp   
 ---
 
 
