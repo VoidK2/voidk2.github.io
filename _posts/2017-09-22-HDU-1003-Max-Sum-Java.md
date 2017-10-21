@@ -1,15 +1,16 @@
 ---
-layout:     post
-title:      HDU 1003 Max Sum 三种解法
-subtitle:   HDU 1003 JAVA dp
-date:       2017-09-22
-author:     zhangzexin
-header-img: img/post-bg-unix-linux.jpg
-catalog:    true
+layout:  post
+title:  HDU 1003 Max Sum 三种解法
+subtitle:  HDU 1003 JAVA dp
+date:  2017-10-21
+author:  zhangzexin
+header-img:  img/post-bg-unix-linux.jpg
+catalog:  true
 tags:
     - HDU
     - Java
     - dp
+    
 ---
 
 
