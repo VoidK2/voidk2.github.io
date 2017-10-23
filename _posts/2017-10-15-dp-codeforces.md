@@ -55,34 +55,33 @@ int main(int argc, char *argv[]){
 ```
 
 ## codeforces 861a
-For a given positive integer n denote its k-rounding as the minimum positive integer x, such that x ends with k or more zeros in base 10 and is divisible by n.
+For a given positive integer n denote its k-rounding as the minimum positive integer x, such that x ends with k or more zeros in base 10 and is divisible by n.<br>
+For example, 4-rounding of 375 is 375·80 = 30000. 30000 is the minimum integer such that it ends with 4 or more zeros and is divisible by 375.<br>
+Write a program that will perform the k-rounding of n.<br>
 
-For example, 4-rounding of 375 is 375·80 = 30000. 30000 is the minimum integer such that it ends with 4 or more zeros and is divisible by 375.
-
-Write a program that will perform the k-rounding of n.
-**Input**
+**Input**<br>
 The only line contains two integers n and k (1 ≤ n ≤ 109, 0 ≤ k ≤ 8).
 
-**Output**
+**Output**<br>
 Print the k-rounding of n.
 
-**Example**
-Input
-375 4
-Output
-30000
-Input
-10000 1
-Output
-10000
-Input
-38101 0
-Output
-38101
-Input
-123456789 8
-Output
-12345678900000000
+**Example**<br>
+Input<br>
+375 4<br>
+Output<br>
+30000<br>
+Input<br>
+10000 1<br>
+Output<br>
+10000<br>
+Input<br>
+38101 0<br>
+Output<br>
+38101<br>
+Input<br>
+123456789 8<br>
+Output<br>
+12345678900000000<br>
 ```c++
 //codeforces 861a
 #include <iostream>  
@@ -114,39 +113,35 @@ int main()
 ```
 
 ## codeforces 861c
-Beroffice text editor has a wide range of features that help working with text. One of the features is an automatic search for typos and suggestions of how to fix them.
+Beroffice text editor has a wide range of features that help working with text. One of the features is an automatic search for typos and suggestions of how to fix them.<br>
+Beroffice works only with small English letters (i.e. with 26 letters from a to z). Beroffice thinks that a word is typed with a typo if there are three or more consonants in a row in the word. The only exception is that if the block of consonants has all letters the same, then this block (even if its length is greater than three) is not considered a typo. Formally, a word is typed with a typo if there is a block of not less that three consonants in a row, and there are at least two different letters in this block.<br>
+For example:<br>
+the following words have typos: "hellno", "hackcerrs" and "backtothefutttture";<br>
+the following words don't have typos: "helllllooooo", "tobeornottobe" and "oooooo".<br>
+When Beroffice editor finds a word with a typo, it inserts as little as possible number of spaces in this word (dividing it into several words) in such a way that each of the resulting words is typed without any typos.<br>
+Implement this feature of Beroffice editor. Consider the following letters as the only vowels: 'a', 'e', 'i', 'o' and 'u'. All the other letters are consonants in this problem.<br>
 
-Beroffice works only with small English letters (i.e. with 26 letters from a to z). Beroffice thinks that a word is typed with a typo if there are three or more consonants in a row in the word. The only exception is that if the block of consonants has all letters the same, then this block (even if its length is greater than three) is not considered a typo. Formally, a word is typed with a typo if there is a block of not less that three consonants in a row, and there are at least two different letters in this block.
-
-For example:
-
-the following words have typos: "hellno", "hackcerrs" and "backtothefutttture";
-the following words don't have typos: "helllllooooo", "tobeornottobe" and "oooooo".
-When Beroffice editor finds a word with a typo, it inserts as little as possible number of spaces in this word (dividing it into several words) in such a way that each of the resulting words is typed without any typos.
-
-Implement this feature of Beroffice editor. Consider the following letters as the only vowels: 'a', 'e', 'i', 'o' and 'u'. All the other letters are consonants in this problem.
-
-Input
+**Input**<br>
 The only line contains a non-empty word consisting of small English letters. The length of the word is between 1 and 3000 letters.
 
-Output
-Print the given word without any changes if there are no typos.
+**Output**<br>
+Print the given word without any changes if there are no typos.<br>
 
 If there is at least one typo in the word, insert the minimum number of spaces into the word so that each of the resulting words doesn't have any typos. If there are multiple solutions, print any of them.
 
-Example
-Input
-hellno
-Output
-hell no 
-Input
-abacaba
-Output
-abacaba 
-Input
-asdfasdf
-Output
-asd fasd f 
+Example<br>
+Input<br>
+hellno<br>
+Output<br>
+hell no <br>
+Input<br>
+abacaba<br>
+Output<br>
+abacaba <br>
+Input<br>
+asdfasdf<br>
+Output<br>
+asd fasd f<br> 
 ```c++
 //codeforces 861c
 #include <cstdio>
