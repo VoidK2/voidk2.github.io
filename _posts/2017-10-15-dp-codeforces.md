@@ -13,16 +13,16 @@ tags:
 ## 整数非重复划分dp
 **
 将N分为若干个不同整数的和，有多少种不同的划分方式，例如：n = 6，{6} {1,5} {2,4} {1,2,3}，共4种。由于数据较大，输出Mod 10^9 + 7的结果即可。<br>
-**Input**
+**Input**<br>
 输入1个数N(1 <= N <= 50000)。
 
-**Output**
+**Output**<br>
 输出划分的数量Mod 10^9 + 7。
 
-**Sample Input**
+**Sample Input**<br>
 6
 
-**Sample Output**
+**Sample Output**<br>
 4
 
 ```c++
