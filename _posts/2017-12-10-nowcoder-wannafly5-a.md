@@ -1,6 +1,6 @@
 ---
 layout:  post
-title:  wannafly5-a题
+title:  wannafly5-a
 subtitle:  正误a题
 data:  2017-12-10
 author:  Zexin Zhang
@@ -9,6 +9,8 @@ catalog:  true
 tags:
 - acm
 ---
+## 题目
+![](https://upload.cc/i/PtMRHw.png)
 **自己超时的代码**
 ```c++
 #include <cstdio>
