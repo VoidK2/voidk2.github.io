@@ -8,6 +8,7 @@ header-img: img/post-bg-linux-unix.jpg
 catalog:  true
 tags:
 - acm
+- algorithm
 ---
 ## 题目
 ![](https://upload.cc/i/PtMRHw.png)
