@@ -4,7 +4,7 @@ title:  wannafly5-a
 subtitle:  正误a题
 data:  2017-12-10
 author:  Zexin Zhang
-header-img: img/post-bg-linux-unix.jpg  
+header-img: img/post-bg--unix-linux.jpg  
 catalog:  true
 tags:
 - acm
