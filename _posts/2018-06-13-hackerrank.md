@@ -2,7 +2,7 @@
 layout:  post
 title: HackerRank初试
 subtitle: 几道题
-date: 2018-06-013
+date: 2018-06-13
 author: zhangzexin
 header-img: img/post-bg-unix-linux.jpg
 catalog: true
