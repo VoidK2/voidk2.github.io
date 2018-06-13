@@ -33,6 +33,7 @@ sum of the above two integers
 **Sample Output**
 
 > 5
+
 ```c
 #include <stdio.h>
 #include <string.h>
