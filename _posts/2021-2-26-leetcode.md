@@ -253,3 +253,37 @@ public class Solution {
     }
 }
 ```
+
+
+## 73.[矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/)
+```java
+class Solution {
+    public void setZeroes(int[][] matrix) {
+        int m=matrix.length;
+        int n=matrix[0].length;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(matrix[i][j]==0){
+                    for(int k=0;k<n;k++){
+                        if(matrix[i][k]!=0){
+                            matrix[i][k]=9999;
+                        }
+                    }
+                    for(int x=0;x<m;x++){
+                        if(matrix[x][j]!=0){
+                            matrix[x][j]=9999;
+                        }
+                    }
+                }
+            }
+        }
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(matrix[i][j]==9999){
+                    matrix[i][j]=0;
+                }
+            }
+        }
+    }
+}
+```
