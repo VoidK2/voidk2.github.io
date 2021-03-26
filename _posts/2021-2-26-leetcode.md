@@ -110,3 +110,22 @@ class Solution {
     }
 }
 ```
+
+## 201.[数字范围按位与](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/)
+
+```java
+class Solution {
+    public int rangeBitwiseAnd(int left, int right) {
+        if(right==0){
+            return 0;
+        }
+        int i=0;
+        while(left!=right){
+            left=left>>1;
+            right=right>>1;
+            i++;
+        }
+        return left<<i;
+    }
+}
+```
